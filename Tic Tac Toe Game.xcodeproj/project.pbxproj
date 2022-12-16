@@ -14,6 +14,9 @@
 		626E1DF2293DE2DA00E6343B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626E1DF0293DE2DA00E6343B /* LaunchScreen.storyboard */; };
 		626E1DFD293DE2DA00E6343B /* Tic_Tac_Toe_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626E1DFC293DE2DA00E6343B /* Tic_Tac_Toe_GameTests.swift */; };
 		626E1E08293DE2DA00E6343B /* Tic_Tac_Toe_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626E1E07293DE2DA00E6343B /* Tic_Tac_Toe_GameUITests.swift */; };
+		626E1E1B293DF30B00E6343B /* board.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 626E1E15293DE32800E6343B /* board.jpeg */; };
+		626E1E1C293DF31F00E6343B /* o.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 626E1E16293DE32800E6343B /* o.jpeg */; };
+		626E1E1D293DF32400E6343B /* x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 626E1E17293DE32800E6343B /* x.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		626E1E03293DE2DA00E6343B /* Tic Tac Toe GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac Toe GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626E1E07293DE2DA00E6343B /* Tic_Tac_Toe_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_Toe_GameUITests.swift; sourceTree = "<group>"; };
 		626E1E09293DE2DA00E6343B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626E1E15293DE32800E6343B /* board.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = board.jpeg; path = ../../../board.jpeg; sourceTree = "<group>"; };
+		626E1E16293DE32800E6343B /* o.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = o.jpeg; path = ../../../o.jpeg; sourceTree = "<group>"; };
+		626E1E17293DE32800E6343B /* x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = x.jpeg; path = ../../../x.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 			children = (
 				626E1E07293DE2DA00E6343B /* Tic_Tac_Toe_GameUITests.swift */,
 				626E1E09293DE2DA00E6343B /* Info.plist */,
+				626E1E15293DE32800E6343B /* board.jpeg */,
+				626E1E16293DE32800E6343B /* o.jpeg */,
+				626E1E17293DE32800E6343B /* x.jpeg */,
 			);
 			path = "Tic Tac Toe GameUITests";
 			sourceTree = "<group>";
@@ -232,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626E1E1D293DF32400E6343B /* x.jpeg in Resources */,
+				626E1E1C293DF31F00E6343B /* o.jpeg in Resources */,
 				626E1DF2293DE2DA00E6343B /* LaunchScreen.storyboard in Resources */,
 				626E1DEF293DE2DA00E6343B /* Assets.xcassets in Resources */,
+				626E1E1B293DF30B00E6343B /* board.jpeg in Resources */,
 				626E1DED293DE2DA00E6343B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
